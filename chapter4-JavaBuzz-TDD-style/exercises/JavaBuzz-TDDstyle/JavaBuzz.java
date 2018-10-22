@@ -1,16 +1,19 @@
 public class JavaBuzz {
-    public static void main(String[] args){}
-    public static String javaBuzz(int num){
-        String result = null;
-        if (num % 15 == 0) {
-            result = "JavaBuzz";
-        } else if (num % 3 == 0){
-            result = "Java";
-        } else if (num % 5 == 0){
-            result = "Buzz";
-        } else {
-            result = Integer.toString(num);
+    public static void main(String[] args) {
+        for (int i = 1; i < 101; i++) {
+            System.out.println(check(i));
         }
-        return result;
+    }
+
+    public static String check (int i) {
+        if (i % 15 == 0) {
+            return "JavaBuzz";
+        } else if (i % 3 == 0) {
+            return "Java";
+        } else if (i % 5 == 0) {
+            return "Buzz";
+        } else {
+            return Integer.toString(i);
+        }
     }
 }
