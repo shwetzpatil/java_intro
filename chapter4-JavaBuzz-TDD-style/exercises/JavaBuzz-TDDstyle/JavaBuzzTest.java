@@ -4,25 +4,25 @@ import org.junit.Test;
 public class JavaBuzzTest {
 
     @Test
-    public void check1() {
+    public void checkBuzz() {
         String answer = JavaBuzz.check(5);
         assertEquals(answer, "Buzz");
     }
 
     @Test
-    public void check2() {
+    public void checkJava() {
         String answer = JavaBuzz.check(9);
         assertEquals(answer, "Java");
     }
 
     @Test
-    public void check3() {
+    public void checkJavaBuzz() {
         String answer2 = JavaBuzz.check(15);
         assertEquals(answer2, "JavaBuzz");
     }
 
     @Test
-    public void check4() {
+    public void checkNumber() {
         String answer3 = JavaBuzz.check(16);
         assertEquals(answer3, "16");
     }
