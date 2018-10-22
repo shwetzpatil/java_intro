@@ -17,3 +17,9 @@ public class JavaBuzz {
         }
     }
 }
+
+/* compile
+javac JavaBuzz.java
+run
+java JavaBuzz
+*/
