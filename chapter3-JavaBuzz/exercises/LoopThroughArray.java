@@ -1,3 +1,8 @@
-// can you remember how to set up your main function?
-
-// loop through an integer array and print out each element
+public class LoopThroughArray {
+    public static void main(String[] args) {
+        //Code of Java for loop
+        for(int i=1;i<=5;i++){
+            System.out.println(i);
+        }
+    }
+}
